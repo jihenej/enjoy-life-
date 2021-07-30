@@ -1,0 +1,114 @@
+:root {
+  --green: #27ae60;
+  --black: #2c2c54;
+}
+.box-container {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.box-container .box {
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  text-align: center;
+  padding: 2rem;
+  flex: 1 1 25rem;
+}
+.box-container .box h3 {
+  font-size: 17px;
+  color: var(--black);
+}
+img {
+  border-radius: 5px;
+}
+.box-container .box p {
+  font-size: 2rem;
+  color: #666;
+  padding: 0.5rem 0;
+}
+.box-container .box .btn {
+  display: block;
+}
+.header-1 {
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+}
+
+.logo {
+  color: var(--black);
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+.logo i {
+  padding-right: 0.5rem;
+  color: var(--green);
+}
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+*::selection {
+  background: var(--green);
+  color: #fff;
+}
+
+.content {
+  background: url(../IMG/salad\ 2.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: center;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color:#27ae60;
+}
+.center {
+  text-align: center;
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color:#4CAF50;}
+
+
+.tag i {
+  font-size: 20px;
+  transition: 0.4s;
+}
+.tag:hover i {
+  color: #27ae60; ;
+}
+.tag{
+  display: flex;
+  justify-content: center;
+}
+
+
+
